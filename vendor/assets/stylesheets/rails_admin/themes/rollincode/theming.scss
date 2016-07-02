@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 @mixin transition($time) {
   -webkit-transition: all $time ease;
@@ -83,6 +83,18 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
     &:nth-child(3) {
       a {
         background: #ef5350;
+        color: white
+      }
+    }
+    &:nth-child(4) {
+      a {
+        background: #f0ad4e;
+        color: white
+      }
+    }
+    &:nth-child(5) {
+      a {
+        background: #29B6F6;
         color: white
       }
     }
